@@ -1,0 +1,13 @@
+.sidebar {
+    margin-top: 10%;
+    padding: 5%;
+    text-align: center;
+    border: 1px solid rgb(132, 173, 235);
+    border-radius: 10px;
+}
+
+.space {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

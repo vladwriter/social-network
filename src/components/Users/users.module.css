@@ -1,0 +1,12 @@
+.userPhoto {
+    width: 100px;
+}
+
+.pageCount {
+    cursor: pointer;
+}
+
+.selectedPage {
+    font-weight: bold;
+    font-size: 120%;
+}
