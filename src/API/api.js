@@ -21,18 +21,13 @@ export const usersAPI = {
         return instance.delete(`follow/${userId}`)
     },
     getProfile(userId) {
-<<<<<<< HEAD
         console.warn('Obsolete method. Please profileAPI object')
-=======
-        console.warn('Obsolete method. Please use profileAPI object.')
->>>>>>> 9f6bde7db35cfb8020d61703c9a79a3049333a19
         return profileAPI.getProfile(userId)
     }
 }
 
 export const profileAPI = {
     getProfile(userId) {
-<<<<<<< HEAD
         return instance.get(`profile/` + userId)
     },
     getStatus(userId) {
@@ -40,15 +35,6 @@ export const profileAPI = {
     },
     updateStatus(status) {
         return instance.put('profile/status', { status })
-=======
-        return instance.get(`profile/` + userId);
-    },
-    getStatus(userId){
-        return instance.get(`profile/status/` + userId);
-    },
-    updateStatus(status){
-        return instance.put(`profile/status/`, {status});
->>>>>>> 9f6bde7db35cfb8020d61703c9a79a3049333a19
     }
 }
 

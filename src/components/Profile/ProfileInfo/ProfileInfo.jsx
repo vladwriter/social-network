@@ -16,11 +16,7 @@ if(!props.profile){
       <div className={s.descriptionBlock}>
         <img src={props.profile.photos.large} />
         <div>{props.profile.fullName}</div>
-<<<<<<< HEAD
         <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
-=======
-        <ProfileStatus status={props.status} updateStatus = {props.updateStatus}/>
->>>>>>> 9f6bde7db35cfb8020d61703c9a79a3049333a19
         <ul>Contacts:
           <li>{props.profile.contacts.facebook}</li>
           <li>{props.profile.contacts.website}</li>
